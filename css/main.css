@@ -106,7 +106,7 @@ body {
   transition: background-color 333ms ease-in;
 }
 
-.chart__bar:hover {
+.chart__item:hover .chart__bar {
   background-color: rgba(127, 219, 255, 1);
 }
 
