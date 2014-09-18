@@ -59,6 +59,11 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+  transition: background 333ms ease-out;
+}
+
+.chart__item:hover {
+  background-color: rgba(204, 204, 204, 1); 
 }
 
 .chart__link,
@@ -76,6 +81,12 @@ body {
   width: 100%;
 
   text-align: center;
+  color: #aaa;
+  transition: color 333ms linear;
+}
+
+.chart__label:hover {
+  color: #fff;
 }
 
 .chart__bar-wrap {
@@ -92,6 +103,11 @@ body {
   top: 0;
 
   background-color: rgba(127, 219, 255, 0.6);
+  transition: background-color 333ms ease-in;
+}
+
+.chart__bar:hover {
+  background-color: rgba(127, 219, 255, 1);
 }
 
 .chart__count {
