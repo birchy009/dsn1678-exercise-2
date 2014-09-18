@@ -104,6 +104,12 @@ body {
 
   background-color: rgba(127, 219, 255, 0.6);
   transition: background-color 333ms ease-in;
+  -webkit-animation: chart__bar 333ms linear;
+}
+
+@-webkit-keyframes chart__bar {
+  0% {top:100%;}
+  100% {top:0%;}
 }
 
 .chart__item:hover .chart__bar {
