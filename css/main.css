@@ -85,7 +85,7 @@ body {
   transition: color 333ms linear;
 }
 
-.chart__label:hover {
+.chart__item:hover .chart__label {
   color: #fff;
 }
 
@@ -122,9 +122,15 @@ body {
 
   background-color: #000;
   border-radius: 6px;
-  opacity: 0;
 
   text-align: center;
+  opacity: 0;
+  transition: all 333ms linear;
+}
+
+.chart__item:hover .chart__count {
+  opacity: 100;
+  top: -4em;
 }
 
 .chart__count::after {
